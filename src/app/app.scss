@@ -1,0 +1,79 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+*{
+    font-family: 'DroidArabicKufiRegular'; 
+}
+ion-content{
+    background: -webkit-radial-gradient(center, ellipse cover, #0f6179 1%,#102332 100%);
+    color: #fff !important;
+}
+.segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
+    font-size: 15px;
+}
+p, ul{
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.toolbar-background-md {
+    background: -webkit-linear-gradient(-25deg, #102332, #0f6179);
+}
+ion-navbar.toolbar{
+    direction: rtl;
+}
+.toolbar-title-md,.bar-button-default-md, h2 {
+    color: #d7bf63;
+}
+.list-md .item-block .item-inner,.menu-inner {
+    border-bottom: inherit;
+    text-align: center;
+}
+.btn_menu{
+    height: 85px;
+    width: 285px;
+    display: flex;
+    margin: 20px auto;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    background: url(../../assets/imgs/btn_menu.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #d7bf63;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.btn_menu:hover {
+    background-color: inherit !important;
+}
+
+.item-md{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    height: 45px;
+    line-height: 20px;
+    padding: 0;
+    width: 85%;
+    margin: 10px auto;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d7bf63;
+}
+.fab-md{
+    background-color: #0f6179 !important;
+}

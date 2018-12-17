@@ -1,0 +1,40 @@
+{
+    "Mecque": [
+        {
+            "title":"أنجم",
+            "map": "فندق أنجم، Umm Al Qura Street، La Mecque Arabie saoudite"
+        },
+        {
+            "title":"إيلاف بكّة",
+            "map": "إيلاف بكة، شارع الرحمة، La Mecque Arabie saoudite"
+        },
+        {
+            "title":"العليان الخليل",
+            "map": "العليان الخليل، Ibrahim Al Khalil Rd, Al Haram، La Mecque Arabie saoudite"
+        },
+        
+        {
+            "title":"صن رايز أجياد",
+            "map": "صن رايز أجياد"
+        },
+        
+        {
+            "title":"carrefour",
+            "map": "Carrefour Gabès, Chentech 6011"
+        },
+        {
+            "title":"Digital Life",
+            "map":"Digital Life, Boulevard Mohammed Ali, Gabès"
+        }
+    ],
+    "Medine": [
+        {
+            "title":"إشراق البستان",
+            "map": "فندق اشراق البستان، الزبير بن العوام، Médine Arabie saoudite"
+        },
+        {
+            "title":"الصالحية الذهبي",
+            "map": "الصالحية الذهبي، King Faisal Road, Médine Arabie saoudite"
+        }
+    ]
+}

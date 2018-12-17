@@ -1,0 +1,27 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <span>عمرة الواحة</span>
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>مناسك العمرة</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button secondary class="btn_menu"  (click)="openIhramPage()">الاحرام</button>
+  <button ion-button secondary class="btn_menu" (click)="openTawafPage()">الطواف</button>
+  <button ion-button secondary class="btn_menu" (click)="openIbrahimPage()">مقام ابراهيم</button>
+  <button ion-button secondary class="btn_menu" (click)="openZamzamPage()">زمزم</button>
+  <button ion-button secondary class="btn_menu"  (click)="openSaiiPage()">السعي </button>
+  <button ion-button secondary class="btn_menu"  (click)="openHalkPage()">الحلق</button>
+  <ion-fab right bottom (click)="openMapsPage()">
+    <button ion-fab><ion-icon name="md-locate" ></ion-icon></button>
+  </ion-fab>
+</ion-content>
