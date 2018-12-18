@@ -21,6 +21,9 @@ ion-content{
     background: -webkit-radial-gradient(center, ellipse cover, #0f6179 1%,#102332 100%);
     color: #fff !important;
 }
+.ion-page.show-page .toolbar-background-md{
+    background: -webkit-linear-gradient(-25deg, #102332, #0f6179) !important;
+}
 .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
     font-size: 15px;
 }
@@ -29,8 +32,40 @@ p, ul{
     line-height: 1.7;
     font-size: 17px;
 }
-.toolbar-background-md {
-    background: -webkit-linear-gradient(-25deg, #102332, #0f6179);
+.menu-inner .toolbar-background-md {
+    background: transparent !important;
+}
+.menu-inner ion-content{
+    background: url(../../assets/imgs/menu.png) no-repeat;
+    background-size: cover;
+}
+.md .menu-inner {
+    background: transparent;
+    background-size: cover;
+    box-shadow: none !important;
+}
+ion-toolbar ion-title{
+    text-align: right !important;
+}
+.menu-inner .list-md{
+    margin-top: 30% !important;
+    direction: rtl !important;
+    width: 70%;
+    margin-left: 85px !important;
+}
+.menu-inner .list-md .item-block .item-inner, .menu-inner {
+    padding-left: 20px !important;
+}
+.menu-inner .item-md{
+    height: auto !important;
+    line-height: 110px !important;
+    background: url(../../assets/imgs/btn.png) no-repeat;
+    background-size: cover;
+    color: #102332;
+    font-size: 22px !important;
+}
+.menu-inner .header-md::after{
+    background-image: none;
 }
 ion-navbar.toolbar{
     direction: rtl;
